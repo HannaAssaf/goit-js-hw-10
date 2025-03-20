@@ -20,26 +20,28 @@
 
         <fieldset class="form-fieldset">
           <legend>State</legend>
-          <label class="form-label-input">
-            <input
-              class="input-radio"
-              type="radio"
-              name="state"
-              value="fulfilled"
-              required
-            />
-            Fulfilled
-          </label>
-          <label class="form-label-input">
-            <input
-              class="input-radio"
-              type="radio"
-              name="state"
-              value="rejected"
-              required
-            />
-            Rejected
-          </label>
+          <div class="radio-btn">
+            <label class="form-label-input">
+              <input
+                class="input-radio"
+                type="radio"
+                name="state"
+                value="fulfilled"
+                required
+              />
+              Fulfilled
+            </label>
+            <label class="form-label-input">
+              <input
+                class="input-radio"
+                type="radio"
+                name="state"
+                value="rejected"
+                required
+              />
+              Rejected
+            </label>
+          </div>
         </fieldset>
 
         <button type="submit" class="btn-submit">Create notification</button>

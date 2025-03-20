@@ -273,6 +273,12 @@
   text-align: center;
 }
 
+.radio-btn {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 48px;
+  padding-left: 48px;
+}
 .form-label-input {
   display: flex;
   align-items: center;
