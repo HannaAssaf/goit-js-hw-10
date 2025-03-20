@@ -19,9 +19,9 @@
 body {
   display: flex;
   flex-direction: column;
-  min-width: 100vw;
-  min-height: 100vh;
-  margin: 0;
+  width: 1440px;
+  height: 496px;
+  margin: 0 auto;
 }
 
 main {

@@ -17,6 +17,20 @@ const options = {
   time_24hr: true,
   defaultDate: new Date(),
   minuteIncrement: 1,
+  locale: {
+    weekdays: {
+      shorthand: ['Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa', 'Su'],
+      longhand: [
+        'Monday',
+        'Tuesday',
+        'Wednesday',
+        'Thursday',
+        'Friday',
+        'Saturday',
+        'Sunday',
+      ],
+    },
+  },
   onClose(selectedDates) {
     console.log(selectedDates[0]);
     const selectedDate = selectedDates[0];
@@ -25,6 +39,10 @@ const options = {
         title: 'Error',
         message: 'Please choose a date in the future',
         position: 'topRight',
+        titleColor: '#FFFFFF',
+        messageColor: '#FFFFFF',
+        backgroundColor: '#EF4040',
+        iconUrl: '../img/bi_x-octagon.svg',
       });
       startBtn.disabled = true;
       return;
