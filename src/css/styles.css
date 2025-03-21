@@ -243,7 +243,6 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  /* justify-content: center; */
   width: 360px;
   height: 64px;
   margin: 0px 0px 24px 0px;
@@ -312,4 +311,13 @@
 
 .btn-submit:hover {
   background: #6c8cff;
+}
+
+.iziToast {
+  width: 383px !important;
+  border-radius: 4px !important;
+}
+
+.iziToast-message {
+  font-size: 18px !important;
 }
