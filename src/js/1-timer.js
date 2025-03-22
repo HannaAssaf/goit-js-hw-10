@@ -41,7 +41,7 @@ const options = {
         titleColor: '#FFFFFF',
         messageColor: '#FFFFFF',
         backgroundColor: '#EF4040',
-        iconUrl: '../img/bi_x-octagon.svg',
+        iconUrl: 'https://hannaassaf.github.io/goit-js-hw-10/img/bi_x-octagon.svg',
       });
       startBtn.disabled = true;
       return;
