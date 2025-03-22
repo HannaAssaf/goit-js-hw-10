@@ -41,6 +41,8 @@ const options = {
         titleColor: '#FFFFFF',
         messageColor: '#FFFFFF',
         backgroundColor: '#EF4040',
+        progressBar: false,
+        close: false,
       });
       startBtn.disabled = true;
       return;
