@@ -193,12 +193,12 @@
   font-size: 24px !important;
 }
 
-.iziToast-close {
-  background-image: url('../img/bi_x-lg.svg') !important;
+/* .iziToast-close {
+  background-image: false;
   width: 16px;
   height: 16px;
   background-size: 24px 24px;
-}
+} */
 /* ************************************************************************************* */
 /* SNACKBAR */
 
