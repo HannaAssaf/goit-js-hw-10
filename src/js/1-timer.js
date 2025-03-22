@@ -36,14 +36,12 @@ const options = {
     const selectedDate = selectedDates[0];
     if (selectedDate <= new Date()) {
       iziToast.error({
-        title: 'Error',
         message: 'Please choose a date in the future',
         position: 'topRight',
         titleColor: '#FFFFFF',
         messageColor: '#FFFFFF',
         backgroundColor: '#EF4040',
-        iconUrl:
-          'https://github.com/HannaAssaf/goit-js-hw-10/blob/main/src/img/bi_x-octagon.svg?short_path=e7f5a2a',
+        iconUrl: '../img/bi_x-octagon.svg',
       });
       startBtn.disabled = true;
       return;
