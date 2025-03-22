@@ -194,7 +194,7 @@
 }
 
 .iziToast-close {
-  background-image: url('../img/bi_x-lg.svg') !important;
+  background-image: url('https://github.com/HannaAssaf/goit-js-hw-10/blob/main/src/img/bi_x-lg.svg') !important;
   width: 16px;
   height: 16px;
   background-size: 24px 24px;
